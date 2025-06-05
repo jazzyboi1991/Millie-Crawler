@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ES6",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "types": ["obsidian"]
+  },
+  "include": ["main.ts"],     // 🔄 'main.ts'를 포함함 (상대 경로로 지정)
+  "exclude": ["node_modules"] // ✅ 자신을 제외하지 않고, 필요한 폴더만 제외
+}
